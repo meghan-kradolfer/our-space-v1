@@ -1,0 +1,40 @@
+.row {
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+%col {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.col-12 {
+  @extend %col;
+  width: 100%;
+}
+
+.col-10 {
+  @extend %col;
+  width: 83.3%;
+}
+
+.col-9 {
+  @extend %col;
+  width: 75%;
+}
+
+.col-6 {
+  @extend %col;
+  width: 50%;
+}
+
+.col-4 {
+  @extend %col;
+  width: 33.3%;
+}
+
+.col-3 {
+  @extend %col;
+  width: 25%;
+}
+

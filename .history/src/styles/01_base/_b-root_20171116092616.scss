@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-size: 12px;
+}
+
+html {
+  background-image: url("/assets/img/bg.jpg");
+  background-size: cover;
+}
+
+body {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  height: 100%;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: box;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  -ms-box-orient: horizontal;
+}
+
+header {
+  width: 100px;
+  -webkit-box-flex:  0;
+  -moz-box-flex:  0;
+  -ms-box-flex:  0;
+}
+
+main {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -ms-box-flex: 1;
+}
+
+footer {
+  flex: 1 100%;
+}

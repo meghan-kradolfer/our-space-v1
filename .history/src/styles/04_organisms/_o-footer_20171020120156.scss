@@ -1,0 +1,18 @@
+$footer-padding: 2rem;
+
+footer {
+  .social {
+    text-align: center;
+    color: $black;
+    padding: $footer-padding 0;
+
+    i {
+      font-size: 2rem;
+      padding:0 $footer-padding;
+      cursor: pointer;
+      &:hover {
+        color: $beer;
+      }
+    }
+  }
+}

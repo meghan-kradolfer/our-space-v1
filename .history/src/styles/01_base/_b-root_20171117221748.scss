@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-size: 12px;
+}
+
+html {
+  background-image: url("/assets/img/bg.jpg");
+  background-size: cover;
+}
+
+body {
+  background-color: rgba(244, 244, 244, 0.9);
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  height: 100vh;
+  -ms-box-orient: horizontal;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  align-items: stretch;
+  padding: 1rem;
+}
+
+header {
+  flex: 1;
+  height: 100vh;
+  overflow: scroll;
+}
+
+main {
+  font-family: $sans-serif;
+  flex: 6;
+  height: 100vh;
+  background: $white;
+  overflow: scroll;
+  border-radius: 1rem;
+}

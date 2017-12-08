@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-size: 12px;
+}
+
+html {
+  background-image: url("/assets/img/bg.jpg");
+  background-size: cover;
+}
+
+body {
+  background-color: $white;
+}
+
+img {
+    max-width: 100%;
+  }

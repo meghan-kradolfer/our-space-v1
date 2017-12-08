@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  background-image: url("/assets/img/bg.jpg");
+  height: 100%;
+  font-size: 12px;
+}
+
+img {
+    max-width: 100%;
+  }
