@@ -1,0 +1,55 @@
+.summary {
+  background-color: #fff;
+
+  h3 {
+    font-weight: normal;
+    text-decoration: underline;
+  }
+
+  .image {
+    height: 15rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .content {
+    @include center($height: 25rem);
+  }
+
+  .content ~ .row {
+    border-top: 1px solid $black;
+    padding: 1rem 0;
+  }
+
+  &.music-post {
+    .image ~ .content {
+      @include center($height: 9rem);
+      h3 {
+        text-transform: uppercase;
+      }
+      h3, strong, p {
+        margin: 0.5rem 0;
+      }
+    }
+  }
+
+  &.start-post {
+    background-image: url('/assets/img/bg.jpg');
+    background-size: cover;
+    .row {
+      @include center($height: 29rem);
+      text-transform: uppercase;
+
+      p {
+        margin: 0;
+      }
+
+      h2 {
+        font-size: 4rem;
+        color: $white;
+        margin: 0;
+      }
+    }
+  }
+}

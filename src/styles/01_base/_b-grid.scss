@@ -1,11 +1,16 @@
 .row {
-  max-width: 80rem;
-  margin: 0 auto;
+  margin: 1rem auto;
+  width: 80%;
+  .row {
+    margin: 0;
+    width: 100%;
+  }
 }
 
 %col {
   display: inline-block;
   vertical-align: middle;
+  margin: 0 1rem;
 }
 
 .col-12 {
@@ -25,7 +30,7 @@
 
 .col-6 {
   @extend %col;
-  width: 50%;
+  width: 40%;
 }
 
 .col-4 {
@@ -38,3 +43,7 @@
   width: 25%;
 }
 
+.col-2 {
+  @extend %col;
+  width: 20%;
+}

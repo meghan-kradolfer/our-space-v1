@@ -19,3 +19,11 @@
         transform: scaleX(1);
     }
 }
+
+@mixin center($height) {
+  height: $height;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

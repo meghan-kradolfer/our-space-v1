@@ -4,12 +4,10 @@ import { Link } from "react-router-dom";
 class Nav extends React.Component {
   render() {
     return (
-      <header>
-        <div className="flex-item logo">
-          <Link to="/">
+      <header className="text-center">
+        <Link to="/">
             <h1>Our Space</h1>
-          </Link>
-        </div>
+        </Link>
         <nav className="flex-item">
           {this.props.children}
         </nav>

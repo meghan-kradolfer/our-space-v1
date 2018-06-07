@@ -6,7 +6,6 @@ import MusicPost from "../music/MusicPost"
 import Nav from "../../components/Nav"
 import tracker from "../../utils/google-analytics";
 
-
 const App = () => (
   <div className="container">
     <Nav>
