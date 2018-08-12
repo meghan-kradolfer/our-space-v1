@@ -20,7 +20,8 @@
     "redux": "^3.7.2",
     "redux-promise": "^0.5.3",
     "spotify-web-api-js": "^0.22.1",
-    "spotify-web-api-node": "^2.5.0"
+    "spotify-web-api-node": "^2.5.0",
+    "superagent": "^3.8.3"
   },
   "scripts": {
     "start-js": "react-scripts start",
